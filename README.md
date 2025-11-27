@@ -34,4 +34,59 @@ Tests are designed to remain **stable even if element IDs or page structure chan
 ---
 
 ## Project Structure
+cloudqatask/
+│
+└── testcases/
+├── AutomationPracticeFormTests.cs
+├── testcases.csproj
+├── appsettings.json
+└── README.md
+
+
+---
+
+## How to Run Tests
+
+1️⃣ Restore and build:
+bash
+dotnet clean
+dotnet restore
+dotnet build
+
+
+2️⃣ Run tests:
+
+dotnet test
+
+
+Expected output:
+
+Test summary: total: 3, failed: 0, succeeded: 3
+
+
+Selenium Driver Setup
+
+Selenium automatically uses Selenium Manager, no manual ChromeDriver download required.
+
+Chrome version is auto-detected and the correct driver is downloaded automatically.
+
+
+Notes
+
+Tests are independent and self-contained.
+
+Designed to work even after minor UI or DOM changes.
+
+Optimized for readability and maintainability.
+
+
+Author
+
+Sahana P
+C# | Selenium | Automation Testing
+CloudQA Internship Task
+
+
+---
+
 
