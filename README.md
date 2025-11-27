@@ -1,6 +1,5 @@
 # CloudQA Automation Task
 
-![Build](https://github.com/Sahanap1708/CloudQATask/actions/workflows/dotnet.yml/badge.svg)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Sahanap1708/CloudQATask)
 [![Language](https://img.shields.io/badge/language-C%23-blue)](https://docs.microsoft.com/dotnet/csharp/)
 [![Selenium Version](https://img.shields.io/badge/Selenium-4.25.0-orange)](https://www.selenium.dev/)
@@ -89,6 +88,7 @@ CloudQA Internship Task
 
 
 ---
+
 
 
 
