@@ -20,10 +20,13 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore testcases/testcases.csproj
+      run: dotnet restore
+      working-directory: ./testcases
 
-    - name: Build project
-      run: dotnet build --no-restore testcases/testcases.csproj
+    - name: Build
+      run: dotnet build --no-restore
+      working-directory: ./testcases
 
-    - name: Run tests
-      run: dotnet test --no-build testcases/testcases.csproj --logger "trx;LogFileName=test_results.trx"
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+      working-directory: ./testcases
