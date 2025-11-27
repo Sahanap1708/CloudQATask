@@ -1,0 +1,22 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Others
+*.DS_Store
